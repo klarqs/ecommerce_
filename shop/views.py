@@ -19,4 +19,3 @@ def checkout(request):
 def login(request):
     context = {}
     return render(request, 'shop/login.html', context)
-
